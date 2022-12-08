@@ -1,4 +1,4 @@
-displayName = 'instance-20221203-0749'
+displayName = 'instance-20221208-0855'
 compartmentId = 'ocid1.tenancy.oc1..aaaaaaaaymqehav5auibvefacl54i4rbeo7crl5qambqpnsxcbmk2jahg6aq'
 availabilityDomain = "omie:AP-SINGAPORE-1-AD-1"
 imageId = "ocid1.image.oc1.ap-singapore-1.aaaaaaaayxuvtbu466gsvnf53xs7bjgj7ywy2vad4h7m5fe6abdfz3ehbzsa"
@@ -24,8 +24,8 @@ logging.basicConfig(
     ]
 )
 
-ocpus = 3
-memory_in_gbs = 18
+ocpus = 1
+memory_in_gbs = 8
 wait_s_for_retry = 10
 
 logging.info("#####################################################")
