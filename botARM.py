@@ -73,7 +73,7 @@ else:
 message = f"Total ocpus: {total_ocpus} - Total memory: {total_memory} (GB) || Free {4-total_ocpus} ocpus - Free memory: {24-total_memory} (GB)"
 logging.info(message)
 
-if total_ocpus + ocpus > 4 or total_memory + memory_in_gbs > 24:
+if total_ocpus + ocpus >= 4 or total_memory + memory_in_gbs >= 24:
     message = "Total maximum resource exceed free tier limit (Over 4 ocpus/24GB total). **SCRIPT STOPPED**"
     logging.critical(message)
     sys.exit()
