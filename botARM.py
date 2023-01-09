@@ -1,8 +1,8 @@
-displayName = 'instance-20221208-0855'
-compartmentId = 'ocid1.tenancy.oc1..aaaaaaaaymqehav5auibvefacl54i4rbeo7crl5qambqpnsxcbmk2jahg6aq'
-availabilityDomain = "omie:AP-SINGAPORE-1-AD-1"
-imageId = "ocid1.image.oc1.ap-singapore-1.aaaaaaaayxuvtbu466gsvnf53xs7bjgj7ywy2vad4h7m5fe6abdfz3ehbzsa"
-subnetId = 'ocid1.subnet.oc1.ap-singapore-1.aaaaaaaayii2nik5xqxq7rxw4qc6ixjjo6j5yoddofaqbgdxk5xy6z27imca'
+displayName = 'arm'
+compartmentId = 'ocid1.tenancy.oc1..aaaaaaaagbbpgfulancebpmrwax5xh57kumsr4ve6a5tf54uztir2x4p5a5q'
+availabilityDomain = "Hewl:AP-CHUNCHEON-1-AD-1"
+imageId = "ocid1.image.oc1.ap-chuncheon-1.aaaaaaaakgg6kue7yuxmapw56lrhcv2z5gc2phggluei7xhbajbewn5ihegq"
+subnetId = 'ocid1.subnet.oc1.ap-chuncheon-1.aaaaaaaa7725523xtyg77x3aq4ts5qlhsywramkenh4ffjopbzv5ziae4o2a'
 ssh_authorized_keys = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8N+ooQaLGbw6SbzJjJRcjMfMZfHtAET+cI96WyePYuSp+oXM9Qsz8nimZQHozcwOao9dlExHoMCLN+AhEanVT7a6FH/ssRKZ7Y0dQU9jUdDjRvzuUFm1p8dF96QRXyl7M44GpXIps6U20P+TyUL0PYuUOFscM3M/C9VlC9Xv0+czI++PPywa2vVVPTgzA5fJHOTzdJ5N+s0XZEZxobWwjgZ98X80pWh5rRt4umIC2AcuzGJGqO9m0c//jPrkOZ9ghbrij0N86UvZzNzLyfNAne/HblWhMyhM+9iZExFuoXkBWglbP9Hp/5gjFkvlJcPTito/U48XQdxjOymAtvqxz ssh-key-2021-05-27"
 
 import os
@@ -24,8 +24,8 @@ logging.basicConfig(
     ]
 )
 
-ocpus = 1
-memory_in_gbs = 6
+ocpus = 2
+memory_in_gbs = 12
 wait_s_for_retry = 10
 
 logging.info("#####################################################")
