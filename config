@@ -1,6 +1,6 @@
 [DEFAULT]
-user=ocid1.user.oc1..aaaaaaaanxtcnz3crqiofcwfprspw76m7dqy4fiuv6uq2ixfgz4id72am6va
-fingerprint=e9:85:67:a0:e8:79:22:b9:da:ac:98:f0:8b:20:8f:37
-tenancy=ocid1.tenancy.oc1..aaaaaaaaymqehav5auibvefacl54i4rbeo7crl5qambqpnsxcbmk2jahg6aq
-region=ap-singapore-1
+user=ocid1.user.oc1..aaaaaaaaootshtegg72psx47thxuabkdlw5w7wfxlsw7ezakj6p6i2p6ccsq
+fingerprint=a6:a4:bb:19:ee:72:a4:54:ef:c3:e6:95:0c:8d:0f:c2
+tenancy=ocid1.tenancy.oc1..aaaaaaaagbbpgfulancebpmrwax5xh57kumsr4ve6a5tf54uztir2x4p5a5q
+region=ap-chuncheon-1
 key_file=oci_private_key.pem
