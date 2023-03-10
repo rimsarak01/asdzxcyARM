@@ -3,7 +3,7 @@ compartmentId = 'ocid1.tenancy.oc1..aaaaaaaabrzwfah3vyxmzlbf3wfbrnuz4gfij5dq72hn
 availabilityDomain = "iOqm:AP-MUMBAI-1-AD-1" 
 imageId = "ocid1.image.oc1.ap-mumbai-1.aaaaaaaa7bo3u4jbzewfvdoiqjvfps4gpnwm6p45iily7ogvigeexathsmaq"
 subnetId = 'ocid1.subnet.oc1.ap-mumbai-1.aaaaaaaaupkcfrghbb2h5yejttwkysqxx2pf53t2xvbq3dweakxzyssn4kea'
-ssh_authorized_keys = "KZ7Y0dQU9jUdDjRvzuUFmumIC2AcuzGJGqO9m0c//jPrkOZ9ghbrij0N86UvZzNzLyfNAne/OymAtvqxz ssh-key-2021-05-27"
+ssh_authorized_keys = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8N+ooQaLGbw6SbzJjJRcjMfMZfHtAET+cI96WyePYuSp+oXM9Qsz8nimZQHozcwOao9dlExHoMCLN+AhEanVT7a6FH/ssRKZ7Y0dQU9jUdDjRvzuUFm1p8dF96QRXyl7M44GpXIps6U20P+TyUL0PYuUOFscM3M/C9VlC9Xv0+czI++PPywa2vVVPTgzA5fJHOTzdJ5N+s0XZEZxobWwjgZ98X80pWh5rRt4umIC2AcuzGJGqO9m0c//jPrkOZ9ghbrij0N86UvZzNzLyfNAne/HblWhMyhM+9iZExFuoXkBWglbP9Hp/5gjFkvlJcPTito/U48XQdxjOymAtvqxz ssh-key-2021-05-27"
 
 import os
 os.system("pip install oci")
