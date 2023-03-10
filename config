@@ -1,6 +1,7 @@
+
 [DEFAULT]
-user=ocid1.user.oc1..aaaaaaaaootshtegg72psx47thxuabkdlw5w7wfxlsw7ezakj6p6i2p6ccsq
-fingerprint=a6:a4:bb:19:ee:72:a4:54:ef:c3:e6:95:0c:8d:0f:c2
-tenancy=ocid1.tenancy.oc1..aaaaaaaagbbpgfulancebpmrwax5xh57kumsr4ve6a5tf54uztir2x4p5a5q
-region=ap-chuncheon-1
+user=ocid1.user.oc1..aaaaaaaaziq3c7te254irudrf6p37fqfmhzlbitdesw64iw5ro6up43vnzhq
+fingerprint=a1:f7:bb:79:e7:90:9c:57:56:d5:c5:3d:7e:83:55:1b
+tenancy=ocid1.tenancy.oc1..aaaaaaaabrzwfah3vyxmzlbf3wfbrnuz4gfij5dq72hnc6dv6fikwok2dw6a
+region=ap-mumbai-1
 key_file=oci_private_key.pem
