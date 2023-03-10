@@ -1,8 +1,8 @@
 displayName = 'arm'
-compartmentId = 'ocid1.tenancy.oc1..aaaaaaaagbbpgfulancebpmrwax5xh57kumsr4ve6a5tf54uztir2x4p5a5q'
-availabilityDomain = "Hewl:AP-CHUNCHEON-1-AD-1"
-imageId = "ocid1.image.oc1.ap-chuncheon-1.aaaaaaaakgg6kue7yuxmapw56lrhcv2z5gc2phggluei7xhbajbewn5ihegq"
-subnetId = 'ocid1.subnet.oc1.ap-chuncheon-1.aaaaaaaa7725523xtyg77x3aq4ts5qlhsywramkenh4ffjopbzv5ziae4o2a'
+compartmentId = 'ocid1.tenancy.oc1..aaaaaaaabrzwfah3vyxmzlbf3wfbrnuz4gfij5dq72hnc6dv6fikwok2dw6a'
+availabilityDomain = "iOqm:AP-MUMBAI-1-AD-1" 
+imageId = "ocid1.image.oc1.ap-mumbai-1.aaaaaaaa7bo3u4jbzewfvdoiqjvfps4gpnwm6p45iily7ogvigeexathsmaq"
+subnetId = 'ocid1.subnet.oc1.ap-mumbai-1.aaaaaaaaupkcfrghbb2h5yejttwkysqxx2pf53t2xvbq3dweakxzyssn4kea'
 ssh_authorized_keys = "KZ7Y0dQU9jUdDjRvzuUFmumIC2AcuzGJGqO9m0c//jPrkOZ9ghbrij0N86UvZzNzLyfNAne/OymAtvqxz ssh-key-2021-05-27"
 
 import os
@@ -24,8 +24,8 @@ logging.basicConfig(
     ]
 )
 
-ocpus = 2
-memory_in_gbs = 12
+ocpus = 1
+memory_in_gbs = 6
 wait_s_for_retry = 10
 
 logging.info("#####################################################")
